@@ -1,1 +1,1 @@
-Test des quelques algoritihme avec gestion de l'affichage
+Tests de quelques algorithmes avec gestion de l'affichage
