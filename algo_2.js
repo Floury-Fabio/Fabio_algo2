@@ -131,8 +131,9 @@ function allSum (arr, k) {
   console.log(`
   Test sur le tableau [${arr}] avec k= ${k}
   `)
+  let copy = arr.map(el => el)
   simSum(arr, k, sum_1, 'sum_1')
-  simSum(arr, k, sum_2, 'sum_2')
+  simSum(copy, k, sum_2, 'sum_2')
   simSum(arr, k, sum_3, 'sum_3')
 }
 
